@@ -7,7 +7,8 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   'build_requires' => {
-    'Module::Build' => '0.3601'
+    'Module::Build' => '0.3601',
+    'Test::More' => '0'
   },
   'configure_requires' => {
     'ExtUtils::MakeMaker' => '6.31',
@@ -38,8 +39,7 @@ my %module_build_args = (
     'SOAP::WSDL::XSD::Typelib::ComplexType' => '0',
     'SOAP::WSDL::XSD::Typelib::Element' => '0',
     'Scalar::Util' => '0',
-    'XML::Simple' => '0',
-    'metaclass' => '0'
+    'XML::Simple' => '0'
   },
   'script_files' => []
 );

@@ -4,6 +4,7 @@ author:
   - 'James Conerly <jconerly@cpan.org>'
 build_requires:
   Module::Build: 0.3601
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
   Module::Build: 0.3601
@@ -30,5 +31,4 @@ requires:
   SOAP::WSDL::XSD::Typelib::Element: 0
   Scalar::Util: 0
   XML::Simple: 0
-  metaclass: 0
 version: 0.01.00

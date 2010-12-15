@@ -12,7 +12,8 @@ my %WriteMakefileArgs = (
   'ABSTRACT' => 'Perl interface to Edgecast\'s SOAP API',
   'AUTHOR' => 'James Conerly <jconerly@cpan.org>',
   'BUILD_REQUIRES' => {
-    'Module::Build' => '0.3601'
+    'Module::Build' => '0.3601',
+    'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31',
@@ -37,12 +38,11 @@ my %WriteMakefileArgs = (
     'SOAP::WSDL::XSD::Typelib::ComplexType' => '0',
     'SOAP::WSDL::XSD::Typelib::Element' => '0',
     'Scalar::Util' => '0',
-    'XML::Simple' => '0',
-    'metaclass' => '0'
+    'XML::Simple' => '0'
   },
   'VERSION' => '0.01.00',
   'test' => {
-    'TESTS' => ''
+    'TESTS' => 't/*.t'
   }
 );
 

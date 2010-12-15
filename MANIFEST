@@ -3,8 +3,6 @@ LICENSE
 MANIFEST
 META.yml
 Makefile.PL
-README
-client.pl
 dist.ini
 lib/CDN/Edgecast/Client.pm
 lib/CDN/Edgecast/Client/auto/Administration/Element/ArrayOfCustomerOriginInfo.pm
@@ -238,6 +236,13 @@ lib/CDN/Edgecast/Client/auto/Reporting/Element/Directories.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Element/FileStatsGet.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Element/FileStatsGetResponse.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Element/Files.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/StorageUsageGetLatest.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/StorageUsageGetLatestResponse.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/StorageUsageGetMax.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/StorageUsageGetMaxResponse.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/TrafficUsageGet.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/TrafficUsageGetResponse.pm
+lib/CDN/Edgecast/Client/auto/Reporting/Element/double.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Element/long.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Interface/EdgeCastWebServices/EdgeCastWebServicesSoap.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Type/CacheStatus.pm
@@ -249,3 +254,4 @@ lib/CDN/Edgecast/Client/auto/Reporting/Type/Directory.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Type/File.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Type/Files.pm
 lib/CDN/Edgecast/Client/auto/Reporting/Typemap/EdgeCastWebServices.pm
+t/00.load.t
